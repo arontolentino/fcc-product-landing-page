@@ -1,0 +1,73 @@
+/* ---------------------------------------------- */
+/* BASIC SETUP */
+/* ---------------------------------------------- */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    background-color: #fff;
+    text-rendering: optimizeLegibility;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* ---------------------------------------------- */
+/* REUSABLE COMPONENTS */
+/* ---------------------------------------------- */
+
+.flex-container {
+    margin: 0 auto;
+    display: flex;
+    max-width: 980px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* ----- BUTTONS ----- */
+
+.btn:link,
+.btn:visited {
+    padding: 10px 25px !important;
+    border-radius: 20px;
+}
+
+.btn-full:link,
+.btn-full:visited {
+    background-color: rgba(255, 160, 9, 1);
+    border: 1px solid rgba(255, 160, 9, 1);
+    color: #fff !important;
+}
+
+/* ---------------------------------------------- */
+/* HEADER*/
+/* ---------------------------------------------- */
+
+.nav-bar {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    color: #fff;
+}
+
+.nav-logo {
+    height: 40px;
+    width: auto;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.nav-links li a{
+    margin-left: 40px;
+}
+
+.nav-links li a:link,
+.nav-links li a:visited {
+    text-decoration: none;
+    color: #fff !important;
+}
