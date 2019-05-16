@@ -11,7 +11,7 @@ html,
 body {
     background-color: #fff;
     text-rendering: optimizeLegibility;
-    font-size: 16px;
+    font-size: 15px;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -109,4 +109,48 @@ body {
          -o-filter: grayscale(100%);
         -ms-filter: grayscale(100%);
             filter: grayscale(100%); 
+}
+
+/* ---------------------------------------------- */
+/* PRODUCT FEATURE 1 */
+/* ---------------------------------------------- */
+
+.product-feature-1 {
+    padding: 3.5rem 0;
+}
+
+.product-img {
+    width: 50%;
+}
+
+.product-feature-1 img {
+    max-width: 800px;
+    margin-left: -200px;
+}
+
+.product-desc h2 {
+    font-size: 2.75rem;
+    font-weight: 400;
+    margin-bottom: 1.5rem;
+} 
+
+.product-desc p {
+    line-height: 1.7rem;
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+/* ---------------------------------------------- */
+/* PRODUCT FEATURE 2 */
+/* ---------------------------------------------- */
+
+.product-feature-2 {
+    padding: 0.75rem 0;
+    background-color: #F5F5F5;
+}
+
+.product-feature-2 img {
+    max-width: 850px;
+    margin-left: -175px;
+    padding-top: 75px;
 }
