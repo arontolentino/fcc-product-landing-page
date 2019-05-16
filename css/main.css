@@ -19,12 +19,23 @@ body {
 /* REUSABLE COMPONENTS */
 /* ---------------------------------------------- */
 
-.flex-container {
+.row {
+    margin: 0 auto;
+    max-width: 980px;
+}
+
+.flex-row {
     margin: 0 auto;
     display: flex;
     max-width: 980px;
     justify-content: space-between;
     align-items: center;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
 }
 
 /* ----- BUTTONS ----- */
@@ -43,7 +54,7 @@ body {
 }
 
 /* ---------------------------------------------- */
-/* HEADER*/
+/* HEADER */
 /* ---------------------------------------------- */
 
 .nav-bar {
@@ -70,4 +81,32 @@ body {
 .nav-links li a:visited {
     text-decoration: none;
     color: #fff !important;
+}
+
+/* ---------------------------------------------- */
+/* FEATURED IN */
+/* ---------------------------------------------- */
+
+.featured-in {
+    padding: 20px 0;
+    background-color: #F5F5F5;
+}
+
+.featured-in p {
+    text-decoration: underline;
+    display: block;
+    text-align: center;
+    font-size: 1.3rem;
+    color: #808080;
+}
+
+.featured-in img {
+    height: 100%;
+    width: 18%;
+    padding-top: 10px;
+    -webkit-filter: grayscale(100%);
+       -moz-filter: grayscale(100%);
+         -o-filter: grayscale(100%);
+        -ms-filter: grayscale(100%);
+            filter: grayscale(100%); 
 }
