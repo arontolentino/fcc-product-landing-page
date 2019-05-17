@@ -46,6 +46,7 @@ body {
 .btn:visited {
     padding: 10px 25px !important;
     border-radius: 20px;
+    text-decoration: none;
 }
 
 .btn-full:link,
@@ -86,6 +87,34 @@ body {
 }
 
 /* ---------------------------------------------- */
+/* HERO */
+/* ---------------------------------------------- */
+
+.hero {
+    height: 90vh;
+    text-align: center;
+    display: flex;
+}
+
+.hero .flex-row {
+    flex-direction: column;
+    justify-content: center; /* align horizontal */
+    align-items: center; 
+}
+
+.hero-title h1 {
+    font-size: 3.25rem;
+}
+
+.hero-title h2 {
+    font-weight: 400;
+}
+
+.hero-button {
+    margin-top: 2.5rem;
+}
+
+/* ---------------------------------------------- */
 /* FEATURED IN */
 /* ---------------------------------------------- */
 
@@ -118,7 +147,7 @@ body {
 /* ---------------------------------------------- */
 
 .product-spotlight{
-    padding: 3rem 0;
+    padding: 4rem 0;
     background-color: rgba(255, 160, 9, 1);
     color: #fff;
 }
@@ -161,7 +190,7 @@ body {
 /* ---------------------------------------------- */
 
 .product-feature-1 {
-    padding: 3rem 0;
+    padding: 4rem 0;
 }
 
 .product-img {
@@ -193,7 +222,7 @@ body {
 /* ---------------------------------------------- */
 
 .product-feature-2 {
-    padding: 3rem 0;
+    padding: 4rem 0;
     background-color: #F5F5F5;
 }
 
@@ -202,7 +231,7 @@ body {
 /* ---------------------------------------------- */
 
 .product-feature-3 {
-    padding: 3rem 0;
+    padding: 4rem 0;
 }
 
 /* ---------------------------------------------- */
@@ -210,7 +239,7 @@ body {
 /* ---------------------------------------------- */
 
 .product-feature-4 {
-    padding: 3rem 0;
+    padding: 4rem 0;
     background-color: #F5F5F5;
 }
 
