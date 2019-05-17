@@ -159,7 +159,21 @@ body {
 }
 
 .spotlight-feature {
-    padding: 1.75rem 1.75rem;;
+    padding: 1.75rem 0;
+    display: flex;
+    align-items: center; 
+}
+
+.spotlight-icon {
+    text-align: center;
+    margin-right: 10px;
+    font-size: 2.5rem;
+    text-align: center;
+    width: 20%;
+}
+
+.spotlight-text {
+    width: 80%;
 }
 
 .spotlight-feature h3 {
