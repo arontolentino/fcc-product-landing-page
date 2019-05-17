@@ -94,6 +94,9 @@ body {
     height: 90vh;
     text-align: center;
     display: flex;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.46), rgba(0, 0, 0, 0.46)), url("../img/hero-image.jpg");
+    background-size: cover;
+    color: #fff;
 }
 
 .hero .flex-row {
